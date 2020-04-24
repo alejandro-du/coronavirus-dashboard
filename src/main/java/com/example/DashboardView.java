@@ -6,13 +6,10 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
-import com.vaadin.flow.theme.Theme;
-import com.vaadin.flow.theme.lumo.Lumo;
 
 import java.util.List;
 
 @Route("")
-@Theme(value = Lumo.class, variant = Lumo.DARK)
 @PWA(name = "Coronavirus Dashboard", shortName = "Coronavirus", description = "A Coronavirus dashboard app")
 public class DashboardView extends VerticalLayout {
 
