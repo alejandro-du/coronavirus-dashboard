@@ -20,8 +20,8 @@ public class DashboardView extends VerticalLayout {
         Board board = new Board();
         board.addRow(
                 new DashboardNumber("Confirmed", latest.getConfirmed()),
-                new DashboardNumber("Confirmed", latest.getDeaths()),
-                new DashboardNumber("Confirmed", latest.getRecovered())
+                new DashboardNumber("Deaths", latest.getDeaths()),
+                new DashboardNumber("Recovered", latest.getRecovered())
 
         );
         board.addRow(
